@@ -1,0 +1,1194 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranav Choudhari - UI/UX Designer Portfolio</title>
+    <meta name="description" content="Portfolio of Pranav Choudhari, UI/UX Designer crafting intuitive digital experiences across healthcare, AI, fintech, CRM, and enterprise systems." />
+    
+    <!-- Open Graph & Social Cards -->
+    <meta property="og:title" content="Pranav Choudhari - UI/UX Designer Portfolio" />
+    <meta property="og:description" content="Portfolio of Pranav Choudhari, UI/UX Designer crafting intuitive digital experiences across healthcare, AI, fintech, CRM, and enterprise systems." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/pranav-arch.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pranav Choudhari - UI/UX Designer Portfolio" />
+    <meta name="twitter:description" content="Portfolio of Pranav Choudhari, UI/UX Designer crafting intuitive digital experiences across healthcare, AI, fintech, CRM, and enterprise systems." />
+    <meta name="twitter:image" content="/assets/pranav-arch.jpg" />
+
+    <!-- Google Fonts: Plus Jakarta Sans, Instrument Serif, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pranav Choudhari",
+        "jobTitle": "UI/UX Designer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Pune",
+          "addressCountry": "India"
+        },
+        "description": "UI/UX Designer crafting thoughtful digital experiences across healthcare, AI, fintech, CRM, analytics and enterprise products.",
+        "skills": ["UI/UX Design", "Healthcare UX", "Agentic AI", "Enterprise SaaS", "Design Systems", "Prototyping"]
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Top Scroll Progress Bar -->
+    <div id="scroll-progress-bar" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+    <!-- Custom Cursor (Desktop Only) -->
+    <div id="custom-cursor" class="custom-cursor" aria-hidden="true">
+      <span class="custom-cursor-text"></span>
+    </div>
+
+    <!-- Top Navigation Bar (Strict 3-Zone Contract) -->
+    <header class="site-header" role="banner">
+      <div class="nav-container">
+        <!-- Zone 1: Brand Wordmark -->
+        <div class="brand-zone">
+          <a href="#" class="brand-link" aria-label="Pranav Choudhari Portfolio Home">
+            <span>PRANAV</span>
+            <span class="brand-dot">.</span>
+          </a>
+        </div>
+
+        <!-- Zone 2: Navigation Links -->
+        <nav class="nav-links-desktop" aria-label="Primary Navigation">
+          <a href="#work" class="nav-link">Work</a>
+          <a href="#process" class="nav-link">Process</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#tools" class="nav-link">Tools</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Zone 3: Actions & Controls -->
+        <div class="nav-actions">
+          <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme">
+            <!-- Sun Icon (shown in dark mode) -->
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2"></path>
+              <path d="M12 20v2"></path>
+              <path d="m4.93 4.93 1.41 1.41"></path>
+              <path d="m17.66 17.66 1.41 1.41"></path>
+              <path d="M2 12h2"></path>
+              <path d="M20 12h2"></path>
+              <path d="m6.34 17.66-1.41 1.41"></path>
+              <path d="m19.07 4.93-1.41 1.41"></path>
+            </svg>
+            <!-- Moon Icon (shown in light mode) -->
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+          </button>
+
+          <a href="#contact" class="btn btn-primary nav-cta-btn">
+            <span>Let's talk</span>
+            <span class="icon-arrow-diagonal" aria-hidden="true">↗</span>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-drawer">
+            <span class="sr-only">Menu</span>
+            <div class="hamburger-box">
+              <div class="hamburger-line"></div>
+              <div class="hamburger-line"></div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-drawer" class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <div class="mobile-nav-links">
+        <a href="#work" class="mobile-nav-link">Work</a>
+        <a href="#process" class="mobile-nav-link">Process</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#tools" class="mobile-nav-link">Tools</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </div>
+      <a href="#contact" class="btn btn-primary mobile-drawer-cta">
+        <span>Let's talk</span>
+        <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <!-- Main Content Region -->
+    <main id="main-content">
+      <!-- ====================================================================
+           HERO SECTION
+           ==================================================================== -->
+      <section id="hero" class="hero-section" aria-label="Introduction and hero showcase">
+        <div class="hero-lime-aura" aria-hidden="true"></div>
+
+        <div class="container hero-canvas-container">
+          <!-- Top Award & Recognition Badge -->
+          <div class="hero-award-tag">
+            <span class="sparkle-icon" aria-hidden="true">✦</span>
+            <span>2.5+ Years Product Design · Pune, India</span>
+          </div>
+
+          <!-- Central Stage matching Madison reference composition -->
+          <div class="hero-stage-container">
+            <!-- Background Editorial Script -->
+            <div class="hero-bg-script font-serif" aria-hidden="true">Hey, there</div>
+
+            <!-- Soft Luminous Radial Glow -->
+            <div class="hero-stage-glow" aria-hidden="true"></div>
+
+            <!-- Left Mid: Availability Pill -->
+            <div class="hero-stage-left-top">
+              <div class="hero-pill-opportunity">
+                <span class="pulse-indicator-dot" aria-hidden="true"></span>
+                <span>Available for new opportunities</span>
+              </div>
+            </div>
+
+            <!-- Left Bottom: Giant Bold Condensed Name (I AM PRANAV) -->
+            <div class="hero-stage-left-bottom">
+              <h1 class="hero-giant-condensed-name">
+                <span class="prefix">I AM</span>
+                <span class="name">PRANAV</span>
+              </h1>
+            </div>
+
+            <!-- Center: PNG Cutout Style Portrait with Feathered Fade -->
+            <div class="hero-stage-portrait-cutout">
+              <img
+                src="/assets/Pranav 2.png"
+                alt="Pranav Choudhari in Mint Suit on Barstool — UI/UX Designer & Creative Technologist"
+                class="hero-cutout-img"
+                width="600"
+                height="800"
+                fetchpriority="high"
+              />
+            </div>
+
+            <!-- Right Mid: Specialization Copy -->
+            <div class="hero-stage-right-mid">
+              <p class="hero-specialization-text">
+                Specialized in Healthcare UX, Agentic AI, Fintech, CRM, and Enterprise Design Systems.
+              </p>
+            </div>
+
+            <!-- Right Bottom: Stacked Role Headline -->
+            <div class="hero-stage-right-bottom">
+              <div class="hero-giant-role-stack">
+                <span>DIGITAL</span>
+                <span>PRODUCT</span>
+                <span>DESIGNER</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Domain Capability Strip -->
+          <div class="hero-ticker-strip">
+            <span class="ticker-item">Healthcare EMR</span>
+            <span class="ticker-separator" aria-hidden="true">✦</span>
+            <span class="ticker-item">Agentic AI</span>
+            <span class="ticker-separator" aria-hidden="true">✦</span>
+            <span class="ticker-item">Enterprise SaaS</span>
+            <span class="ticker-separator" aria-hidden="true">✦</span>
+            <span class="ticker-item">Fintech</span>
+            <span class="ticker-separator" aria-hidden="true">✦</span>
+            <span class="ticker-item">Industrial IoT</span>
+            <span class="ticker-separator" aria-hidden="true">✦</span>
+            <span class="ticker-item">Data Visualization</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           METRICS SECTION
+           ==================================================================== -->
+      <section id="metrics" class="metrics-section" aria-label="Key professional metrics and achievements">
+        <div class="container">
+          <div class="metrics-grid">
+            <div class="metric-item">
+              <div class="metric-number-wrapper">
+                <span class="metric-value font-mono" data-target="2.5">2.5</span>
+                <span class="metric-suffix font-mono">+</span>
+              </div>
+              <span class="metric-label">Years Experience</span>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number-wrapper">
+                <span class="metric-value font-mono" data-target="15">15</span>
+                <span class="metric-suffix font-mono">+</span>
+              </div>
+              <span class="metric-label">Total Projects</span>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number-wrapper">
+                <span class="metric-value font-mono" data-target="500">500</span>
+                <span class="metric-suffix font-mono">+</span>
+              </div>
+              <span class="metric-label">UI Screens</span>
+            </div>
+
+            <div class="metric-item">
+              <div class="metric-number-wrapper">
+                <span class="metric-value font-mono" data-target="10">10</span>
+                <span class="metric-suffix font-mono">K+</span>
+              </div>
+              <span class="metric-label">Art Community</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           DESIGN PHILOSOPHY SECTION
+           ==================================================================== -->
+      <section id="philosophy" class="section-wrapper philosophy-section" aria-label="Design philosophy">
+        <div class="container">
+          <div class="philosophy-container">
+            <span class="section-label">PHILOSOPHY & APPROACH</span>
+            <h2 class="philosophy-quote text-balance">
+              I help teams turn <span class="serif-italic">messy problems</span> into useful, scalable <span class="serif-italic">digital products.</span>
+            </h2>
+
+            <div class="skills-chips-cloud" aria-label="Core design competencies">
+              <span class="skill-chip">Research</span>
+              <span class="skill-chip">UX</span>
+              <span class="skill-chip">UI</span>
+              <span class="skill-chip">Wireframes</span>
+              <span class="skill-chip">Prototypes</span>
+              <span class="skill-chip">Design Systems</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SELECTED WORK SECTION (Interactive Horizontal Drag / Carousel)
+           ==================================================================== -->
+      <section id="work" class="section-wrapper work-section" aria-label="Selected case studies">
+        <div class="container">
+          <div class="work-header-row">
+            <div>
+              <span class="section-label">01. SELECTED WORK</span>
+              <h2 class="section-heading">Featured Case Studies</h2>
+              <p class="section-subheading">
+                Deep dives into complex domains: healthcare ecosystems, autonomous agentic AI, enterprise revenue pipelines, and industrial IoT.
+              </p>
+            </div>
+
+            <!-- Controls & Counter -->
+            <div class="work-carousel-controls">
+              <span id="work-counter" class="carousel-counter">01 / 04</span>
+              <button id="work-prev" class="btn-icon" aria-label="Previous project">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m15 18-6-6 6-6"/>
+                </svg>
+              </button>
+              <button id="work-next" class="btn-icon" aria-label="Next project">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m9 18 6-6-6-6"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Horizontal Viewport -->
+          <div id="work-viewport" class="work-carousel-viewport" tabindex="0" role="region" aria-label="Project showcase carousel">
+            <div id="work-track" class="work-carousel-track">
+              <!-- Project 1: CuroCare -->
+              <article class="project-card" data-case-study="curocare">
+                <div class="project-media-container">
+                  <img src="/assets/projects/Curocare.svg" alt="CuroCare Healthcare Ecosystem UI" class="project-image" loading="lazy" />
+                  <div class="project-media-overlay"></div>
+                  <span class="project-index-badge">01</span>
+                </div>
+                <div class="project-body">
+                  <div class="project-category-row">
+                    <span>Healthcare</span>
+                    <span aria-hidden="true">·</span>
+                    <span>Insurance</span>
+                    <span aria-hidden="true">·</span>
+                    <span>EMR</span>
+                  </div>
+                  <h3 class="project-title">CuroCare</h3>
+                  <p class="project-desc">
+                    Role-based healthcare ecosystem connecting TPAs, insurance companies, corporates, hospitals, doctors and patients in a unified claims workflow.
+                  </p>
+                  <div class="project-specs-grid">
+                    <div class="spec-item">
+                      <span class="spec-label">Role</span>
+                      <span class="spec-value">Lead UI/UX Designer</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Focus</span>
+                      <span class="spec-value">Healthcare workflows</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Work</span>
+                      <span class="spec-value">Flows · Wireframes · UI</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Platform</span>
+                      <span class="spec-value">Web + Mobile</span>
+                    </div>
+                  </div>
+                  <div class="project-footer-action">
+                    <button class="btn btn-secondary btn-open-case-study" data-case-study="curocare">
+                      <span>View Case Study</span>
+                      <span class="icon-arrow-diagonal" aria-hidden="true">↗</span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Project 2: Medinova -->
+              <article class="project-card" data-case-study="medinova">
+                <div class="project-media-container">
+                  <img src="/assets/projects/Medinova.svg" alt="Medinova Healthcare Platform UI" class="project-image" loading="lazy" />
+                  <div class="project-media-overlay"></div>
+                  <span class="project-index-badge">02</span>
+                </div>
+                <div class="project-body">
+                  <div class="project-category-row">
+                    <span>Healthcare</span>
+                    <span aria-hidden="true">·</span>
+                    <span>Insurance</span>
+                    <span aria-hidden="true">·</span>
+                    <span>EMR</span>
+                  </div>
+                  <h3 class="project-title">Medinova</h3>
+                  <p class="project-desc">
+                    Role-based healthcare ecosystem connecting TPAs, insurance companies, corporates, hospitals, doctors and patients in a unified claims workflow.
+                  </p>
+                  <div class="project-specs-grid">
+                    <div class="spec-item">
+                      <span class="spec-label">Role</span>
+                      <span class="spec-value">Lead UI/UX Designer</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Focus</span>
+                      <span class="spec-value">Healthcare workflows</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Work</span>
+                      <span class="spec-value">Flows · Wireframes · UI</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Platform</span>
+                      <span class="spec-value">Web + Mobile</span>
+                    </div>
+                  </div>
+                  <div class="project-footer-action">
+                    <button class="btn btn-secondary btn-open-case-study" data-case-study="medinova">
+                      <span>View Case Study</span>
+                      <span class="icon-arrow-diagonal" aria-hidden="true">↗</span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+              <!-- Project 3: T-Mobile -->
+              <article class="project-card" data-case-study="tmobile">
+                <div class="project-media-container">
+                  <img src="/assets/projects/t-mobile.jpg" alt="T-Mobile Outage AI System UI" class="project-image" loading="lazy" />
+                  <div class="project-media-overlay"></div>
+                  <span class="project-index-badge">03</span>
+                </div>
+                <div class="project-body">
+                  <div class="project-category-row">
+                    <span>Agentic AI</span>
+                    <span aria-hidden="true">·</span>
+                    <span>Enterprise</span>
+                  </div>
+                  <h3 class="project-title">T-Mobile</h3>
+                  <p class="project-desc">
+                    Natural-language telecommunications outage reporting and automated root-cause analysis powered by conversational agentic intelligence.
+                  </p>
+                  <div class="project-specs-grid">
+                    <div class="spec-item">
+                      <span class="spec-label">Role</span>
+                      <span class="spec-value">Product Designer</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Focus</span>
+                      <span class="spec-value">Agentic AI & Telemetry</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Work</span>
+                      <span class="spec-value">Conversational UX · Graph</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Platform</span>
+                      <span class="spec-value">Enterprise Web</span>
+                    </div>
+                  </div>
+                  <div class="project-footer-action">
+                    <button class="btn btn-secondary btn-open-case-study" data-case-study="tmobile">
+                      <span>View Case Study</span>
+                      <span class="icon-arrow-diagonal" aria-hidden="true">↗</span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Project 4: Altleads -->
+              <article class="project-card" data-case-study="altleads">
+                <div class="project-media-container">
+                  <img src="/assets/projects/altleads.jpg" alt="Altleads B2B CRM Pipeline UI" class="project-image" loading="lazy" />
+                  <div class="project-media-overlay"></div>
+                  <span class="project-index-badge">04</span>
+                </div>
+                <div class="project-body">
+                  <div class="project-category-row">
+                    <span>CRM</span>
+                    <span aria-hidden="true">·</span>
+                    <span>B2B SaaS</span>
+                  </div>
+                  <h3 class="project-title">Altleads</h3>
+                  <p class="project-desc">
+                    Lead management, sales pipeline visibility, multi-team meeting scheduling and actionable conversion reporting.
+                  </p>
+                  <div class="project-specs-grid">
+                    <div class="spec-item">
+                      <span class="spec-label">Role</span>
+                      <span class="spec-value">UI/UX Designer</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Focus</span>
+                      <span class="spec-value">Sales Pipeline Visibility</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Work</span>
+                      <span class="spec-value">IA · Kanban · Analytics</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Platform</span>
+                      <span class="spec-value">Cloud SaaS Web</span>
+                    </div>
+                  </div>
+                  <div class="project-footer-action">
+                    <button class="btn btn-secondary btn-open-case-study" data-case-study="altleads">
+                      <span>View Case Study</span>
+                      <span class="icon-arrow-diagonal" aria-hidden="true">↗</span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Project 5: DDE -->
+              <article class="project-card" data-case-study="dde">
+                <div class="project-media-container">
+                  <img src="/assets/projects/dde.jpg" alt="DDE Industrial Telemetry Analytics UI" class="project-image" loading="lazy" />
+                  <div class="project-media-overlay"></div>
+                  <span class="project-index-badge">05</span>
+                </div>
+                <div class="project-body">
+                  <div class="project-category-row">
+                    <span>Industrial IoT</span>
+                    <span aria-hidden="true">·</span>
+                    <span>Analytics</span>
+                  </div>
+                  <h3 class="project-title">DDE</h3>
+                  <p class="project-desc">
+                    Industrial equipment runtime monitoring, predictive downtime alarms, and multi-year historical trend analysis for manufacturing floors.
+                  </p>
+                  <div class="project-specs-grid">
+                    <div class="spec-item">
+                      <span class="spec-label">Role</span>
+                      <span class="spec-value">Uxx  X Engineer & UI Designer</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Focus</span>
+                      <span class="spec-value">Machine Telemetry</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Work</span>
+                      <span class="spec-value">Dashboards · Alarms · Trends</span>
+                    </div>
+                    <div class="spec-item">
+                      <span class="spec-label">Platform</span>
+                      <span class="spec-value">Industrial Web & Tablet</span>
+                    </div>
+                  </div>
+                  <div class="project-footer-action">
+                    <button class="btn btn-secondary btn-open-case-study" data-case-study="dde">
+                      <span>View Case Study</span>
+                      <span class="icon-arrow-diagonal" aria-hidden="true">↗</span>
+                    </button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Pagination Indicator Dots -->
+          <div id="work-dots" class="carousel-pagination-dots" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           PROCESS / HOW I WORK SECTION
+           ==================================================================== -->
+      <section id="process" class="section-wrapper process-section" aria-label="Design methodology and process">
+        <div class="container">
+          <span class="section-label">02. PROCESS</span>
+          <h2 class="section-heading">How I Turn Chaos Into Clarity</h2>
+          <p class="section-subheading">
+            A disciplined four-phase product design framework bridging user empathy, architectural problem-definition, and pixel-precise execution.
+          </p>
+
+          <div class="process-grid">
+            <!-- Animated track line -->
+            <div class="process-track-line" aria-hidden="true">
+              <div id="process-track-progress" class="process-track-progress"></div>
+            </div>
+
+            <!-- Step 1: Discover -->
+            <div class="process-card">
+              <div class="process-step-num font-mono">01</div>
+              <h3 class="process-step-title">Discover</h3>
+              <p class="process-step-desc">
+                Understand users, goals and constraints. Conducting stakeholder interviews, contextual inquiries, and competitive audits to uncover core behavioral bottlenecks.
+              </p>
+            </div>
+
+            <!-- Step 2: Define -->
+            <div class="process-card">
+              <div class="process-step-num font-mono">02</div>
+              <h3 class="process-step-title">Define</h3>
+              <p class="process-step-desc">
+                Structure problems and identify opportunities. Synthesizing research insights into clear journey maps, persona matrices, and technical feasibility parameters.
+              </p>
+            </div>
+
+            <!-- Step 3: Design -->
+            <div class="process-card">
+              <div class="process-step-num font-mono">03</div>
+              <h3 class="process-step-title">Design</h3>
+              <p class="process-step-desc">
+                Create flows, wireframes and interfaces. Rapidly exploring low-fidelity interaction patterns before sculpting high-fidelity, accessible UI component ecosystems.
+              </p>
+            </div>
+
+            <!-- Step 4: Deliver -->
+            <div class="process-card">
+              <div class="process-step-num font-mono">04</div>
+              <h3 class="process-step-title">Deliver</h3>
+              <p class="process-step-desc">
+                Prototype, document and collaborate with developers. Providing atomic design tokens, motion choreographies, and edge-case state specs for zero-drift implementation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           SERVICES SECTION
+           ==================================================================== -->
+      <section id="services" class="section-wrapper services-section" aria-label="Services and capabilities">
+        <div class="container">
+          <span class="section-label">03. SERVICES</span>
+          <h2 class="section-heading">Tailored Design Offerings</h2>
+          <p class="section-subheading">
+            From zero-to-one product incubation to scaling mature enterprise design operations, here is how I help digital product teams succeed.
+          </p>
+
+          <div class="services-list" role="list">
+            <!-- Service 1: Product UX -->
+            <div class="service-row" role="listitem">
+              <span class="service-number font-mono">01</span>
+              <h3 class="service-name">Product UX</h3>
+              <p class="service-deliverables">
+                User research · Information architecture · User journey flows · Low-fidelity wireframing · Usability testing & validation
+              </p>
+              <div class="service-arrow" aria-hidden="true">
+                <span class="icon-arrow-diagonal">↗</span>
+              </div>
+            </div>
+
+            <!-- Service 2: Interface Design -->
+            <div class="service-row" role="listitem">
+              <span class="service-number font-mono">02</span>
+              <h3 class="service-name">Interface Design</h3>
+              <p class="service-deliverables">
+                High-fidelity UI · Complex analytical dashboards · Responsive cross-platform layouts · Interactive prototypes · Micro-interactions
+              </p>
+              <div class="service-arrow" aria-hidden="true">
+                <span class="icon-arrow-diagonal">↗</span>
+              </div>
+            </div>
+
+            <!-- Service 3: Design Systems -->
+            <div class="service-row" role="listitem">
+              <span class="service-number font-mono">03</span>
+              <h3 class="service-name">Design Systems</h3>
+              <p class="service-deliverables">
+                Component libraries · Design tokens · Tokenized handoff · Comprehensive component documentation · Multi-brand theming architecture
+              </p>
+              <div class="service-arrow" aria-hidden="true">
+                <span class="icon-arrow-diagonal">↗</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           ABOUT & STORY SECTION
+           ==================================================================== -->
+      <section id="about" class="section-wrapper about-section" aria-label="About Pranav and journey">
+        <div class="container">
+          <div class="about-grid">
+            <!-- Left Sticky Portrait & Passion Tag -->
+            <div class="about-visual-column">
+              <div class="about-image-card">
+                <div class="about-image-inner">
+                  <img
+                    src="/assets/With_bg.png"
+                    alt="Pranav Choudhari"
+                    class="about-portrait-img"
+                    loading="lazy"
+                  />
+                  <div class="about-art-tag">
+                    <strong>Designer by profession. Artist by passion.</strong>
+                    <span>Bridging systematic engineering rigor with human-centered aesthetics.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Story & Timeline Narrative -->
+            <div class="about-story-column">
+              <span class="section-label">04. ABOUT</span>
+              <h2 class="about-tagline">
+                Turning complicated requirements into interfaces that feel
+                <span class="serif-highlight">clear, practical and human.</span>
+              </h2>
+
+              <div class="about-narrative">
+                <p>
+                  My journey started in <strong>Mechanical Engineering</strong> and moved toward digital products, problem solving and visual design. Having a foundational background in engineering gives me a natural affinity for technical feasibility, architectural constraints, and systematic decomposition of complex problems.
+                </p>
+                <p>
+                  Today I work across <strong>healthcare, AI, fintech, CRM, analytics and enterprise applications</strong>. I thrive when collaborating directly with engineering and product leaders to translate dense domain requirements into clean, frictionless software that people love using every day.
+                </p>
+                <p>
+                  I enjoy turning complicated requirements into interfaces that feel clear, practical and human. Outside product design, I cultivate a passionate digital art practice, exploring composition, light, and visual storytelling.
+                </p>
+              </div>
+
+              <!-- Interactive Career Timeline -->
+              <div class="timeline-block">
+                <h3 class="timeline-heading">Professional Journey</h3>
+                <div class="timeline-list">
+                  <div class="timeline-item active">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-year font-mono">2024 – PRESENT</div>
+                    <h4 class="timeline-role">UI/UX Designer</h4>
+                    <span class="timeline-org">Rabbit & Tortoise · Healthcare, AI & Enterprise Solutions</span>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-year font-mono">2023 – 2024</div>
+                    <h4 class="timeline-role">UI/UX Designer</h4>
+                    <span class="timeline-org">Finabits · Fintech & SaaS Interfaces</span>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-year font-mono">2023</div>
+                    <h4 class="timeline-role">UI/UX Transition & Professional Certification</h4>
+                    <span class="timeline-org">Interaction Design, User Research & Design Systems</span>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-year font-mono">2022</div>
+                    <h4 class="timeline-role">Mechanical Engineering</h4>
+                    <span class="timeline-org">Undergraduate Degree · Systems Thinking & Analytical Problem Solving</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Artist Identity & Studio Setup Card (Design × Art) -->
+              <div class="artist-banner-card">
+                <div class="artist-banner-header">
+                  <div class="artist-banner-info">
+                    <h3 class="artist-banner-title">
+                      DESIGN <span>×</span> ART
+                    </h3>
+                    <p class="artist-banner-text">
+                      Where structured systems meet expressive creative vision. My background in visual arts directly informs my sense of typography hierarchy, color balance, and spatial rhythm in digital interfaces.
+                    </p>
+                  </div>
+                  <div>
+                    <div class="artist-community-badge">
+                      <span class="number font-mono">10,000+</span>
+                      <span>Art Community Members</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Dedicated Desktop Setup Showcase -->
+                <div class="workspace-setup-frame">
+                  <div class="workspace-image-wrapper">
+                    <img
+                      src="/assets/Art stuido.png"
+                      alt="Pranav Choudhari — Desktop Setup & Creative Studio Workstation"
+                      class="workspace-image"
+                      loading="lazy"
+                      width="1080"
+                      height="1920"
+                    />
+                    <div class="workspace-scrim" aria-hidden="true"></div>
+
+                    <!-- Setup Badges -->
+                    <div class="workspace-tag-top">
+                      <span class="pulse-indicator" aria-hidden="true"></span>
+                      <span>STUDIO SETUP · PUNE</span>
+                    </div>
+
+                    <div class="workspace-tag-top-right">
+                      <span>FIGMA & HARDWARE</span>
+                    </div>
+
+                    <!-- Bottom Specs & Caption -->
+                    <div class="workspace-caption-bar">
+                      <div>
+                        <span class="workspace-caption-title">Creative Workstation & Design Lab</span>
+                        <span class="workspace-caption-sub">Where enterprise products, research flows & artwork are crafted</span>
+                      </div>
+                      <div class="workspace-gear-specs">
+                        <span>Curved Display · Mechanical Keeb · Ambient Lighting</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TOOLS & CRAFT SECTION
+           ==================================================================== -->
+      <section id="tools" class="section-wrapper tools-section" aria-label="Tools and technical craft">
+        <div class="container">
+          <span class="section-label">05. TOOLS & CRAFT</span>
+          <h2 class="section-heading">Digital Toolkit & Mastery</h2>
+          <p class="section-subheading">
+            Leveraging battle-tested software, rapid prototyping engines, and state-of-the-art AI toolchains to ship thoughtful, reliable experiences.
+          </p>
+
+          <div class="tools-grid">
+            <!-- Tool 1: Figma -->
+            <div class="tool-card">
+              <div class="tool-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"/>
+                  <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"/>
+                  <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"/>
+                  <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"/>
+                  <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"/>
+                </svg>
+              </div>
+              <h3 class="tool-name">Figma</h3>
+              <p class="tool-purpose">Flows · UI · High-Fidelity Prototypes · Design Systems & Variables</p>
+            </div>
+
+            <!-- Tool 2: Photoshop -->
+            <div class="tool-card">
+              <div class="tool-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2"/>
+                  <circle cx="9" cy="9" r="2"/>
+                  <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+                </svg>
+              </div>
+              <h3 class="tool-name">Photoshop</h3>
+              <p class="tool-purpose">Image retouching · Digital artwork · Texture synthesis · Visual assets</p>
+            </div>
+
+            <!-- Tool 3: Illustrator -->
+            <div class="tool-card">
+              <div class="tool-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="m4.93 4.93 4.24 4.24"/>
+                  <path d="m14.83 9.17 4.24-4.24"/>
+                  <path d="m14.83 14.83 4.24 4.24"/>
+                  <path d="m9.17 14.83-4.24 4.24"/>
+                </svg>
+              </div>
+              <h3 class="tool-name">Illustrator</h3>
+              <p class="tool-purpose">Vector graphics · Custom iconography · Brand identity assets · Spatial geometry</p>
+            </div>
+
+            <!-- Tool 4: Framer -->
+            <div class="tool-card">
+              <div class="tool-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 2h14v8h-7l7 6H5V2z"/>
+                  <path d="M12 16H5v6l7-6z"/>
+                </svg>
+              </div>
+              <h3 class="tool-name">Framer</h3>
+              <p class="tool-purpose">Micro-interactions · Responsive web prototypes · Interactive motion choreography</p>
+            </div>
+
+            <!-- Tool 5: AI Tools -->
+            <div class="tool-card">
+              <div class="tool-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+                </svg>
+              </div>
+              <h3 class="tool-name">AI Tools</h3>
+              <p class="tool-purpose">Workflow acceleration · Ideation · Synthetic user feedback · Agentic UX exploration</p>
+            </div>
+
+            <!-- Tool 6: Developer Handoff -->
+            <div class="tool-card">
+              <div class="tool-icon-wrapper">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"/>
+                  <polyline points="8 6 2 12 8 18"/>
+                </svg>
+              </div>
+              <h3 class="tool-name">Developer Handoff</h3>
+              <p class="tool-purpose">Design tokens · Detailed specifications · Component state matrices · Edge case logic</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           EXPERIENCE & EXPERTISE SECTION
+           ==================================================================== -->
+      <section id="expertise" class="section-wrapper expertise-section" aria-label="Domain expertise">
+        <div class="container">
+          <span class="section-label">06. EXPERTISE</span>
+          <h2 class="section-heading">Domain Specializations</h2>
+          <p class="section-subheading">
+            Proven proficiency across high-stakes verticals demanding both intellectual rigor and seamless usability.
+          </p>
+
+          <div class="expertise-list" role="list">
+            <div class="expertise-item" role="listitem">
+              <span class="expertise-index font-mono">01</span>
+              <h3 class="expertise-title">Healthcare UX</h3>
+              <p class="expertise-desc">Role-based workflows, electronic medical records (EMR), patient portals, and automated claims adjudication.</p>
+            </div>
+
+            <div class="expertise-item" role="listitem">
+              <span class="expertise-index font-mono">02</span>
+              <h3 class="expertise-title">Agentic AI</h3>
+              <p class="expertise-desc">Natural-language workflows, automated root-cause diagnostics, and contextual intelligence interfaces.</p>
+            </div>
+
+            <div class="expertise-item" role="listitem">
+              <span class="expertise-index font-mono">03</span>
+              <h3 class="expertise-title">Enterprise SaaS</h3>
+              <p class="expertise-desc">Data-heavy platforms, CRM pipelines, complex multi-tenant permissions, and daily operations software built for everyday users.</p>
+            </div>
+
+            <div class="expertise-item" role="listitem">
+              <span class="expertise-index font-mono">04</span>
+              <h3 class="expertise-title">Art & Creativity</h3>
+              <p class="expertise-desc">Digital portraits, visual experiments, visual storytelling, and fostering a 10K+ digital art community.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           FAQ SECTION (ACCORDION)
+           ==================================================================== -->
+      <section id="faq" class="section-wrapper faq-section" aria-label="Frequently asked questions">
+        <div class="container">
+          <div style="text-align: center; max-width: 720px; margin: 0 auto;">
+            <span class="section-label">07. FAQ</span>
+            <h2 class="section-heading">Frequently Asked Questions</h2>
+            <p class="section-subheading" style="margin: 0 auto;">
+              Clear answers regarding my design process, technical capabilities, developer collaboration, and availability.
+            </p>
+          </div>
+
+          <div class="faq-accordion-container">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <span>What products do you design?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  I specialize in complex, data-rich digital products including healthcare operating systems and EMR platforms, agentic AI consoles, B2B SaaS CRM pipelines, industrial IoT telemetry dashboards, and fintech interfaces. I thrive on untangling messy workflows into clean, intuitive products.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <span>What is your design process?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  I follow an outcome-focused four-stage process: Discover (user research, problem framing), Define (information architecture, persona requirements), Design (wireframing, high-fidelity UI, interactive prototyping), and Deliver (design tokens, dev-ready specs, and post-launch iteration).
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <span>What tools do you use?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  Figma is my primary workspace for interface design, component libraries, and prototyping. I also use Framer for interactive motion and web experiences, Adobe Photoshop and Illustrator for visual artistry, and cutting-edge AI tools to accelerate ideation and research.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <span>Do you work with developers?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  Yes, very closely! Coming from a Mechanical Engineering background, I communicate fluently with developers about component logic, responsive math, layout constraints, token architecture, and edge-case handling. I ensure that designs translate into production code with zero visual degradation.
+                </div>
+              </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="faq-item">
+              <button class="faq-trigger" aria-expanded="false">
+                <span>Are you available for opportunities?</span>
+                <span class="faq-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-content-inner">
+                  Yes, I am actively open to select freelance client projects as well as full-time senior product design roles. Whether you are building a zero-to-one product or scaling an enterprise platform, let's connect and discuss your vision.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           CONTACT SECTION (PREMIUM DARK CTA)
+           ==================================================================== -->
+      <section id="contact" class="section-wrapper contact-section" aria-label="Contact and collaboration">
+        <div class="contact-glow-orb" aria-hidden="true"></div>
+
+        <div class="container">
+          <div class="contact-grid">
+            <!-- Left Info -->
+            <div>
+              <span class="contact-kicker">LET'S CONNECT</span>
+              <h2 class="contact-headline">
+                LET'S<br />
+                <span>BUILD.</span>
+              </h2>
+
+              <p class="contact-body-text">
+                Have a project in mind or looking for a product designer who bridges deep technical empathy with high-end aesthetic craft? Let's connect and build something memorable.
+              </p>
+
+              <div>
+                <a href="mailto:pranavchoudhari01@gmail.com" class="contact-direct-link">
+                  <span>pranavchoudhari01@gmail.com</span>
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+
+              <div style="margin-top: 1.5rem;">
+                <a href="mailto:pranavchoudhari01@gmail.com" class="btn btn-primary">
+                  <span>Email Pranav</span>
+                  <span class="icon-arrow-diagonal" aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Functional Form -->
+            <div>
+              <div class="contact-form-card">
+                <form id="contact-form" novalidate>
+                  <div class="form-group">
+                    <label for="contact-name" class="form-label">Your Name</label>
+                    <input type="text" id="contact-name" class="form-input" placeholder="Alex Morgan" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="contact-email" class="form-label">Email Address</label>
+                    <input type="email" id="contact-email" class="form-input" placeholder="alex@company.com" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="contact-message" class="form-label">Project Details</label>
+                    <textarea id="contact-message" class="form-textarea" placeholder="Tell me about your product, timeline, and goals..." required></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary btn-submit-form">
+                    <span>Send enquiry</span>
+                    <span class="icon-arrow-diagonal" aria-hidden="true">↗</span>
+                  </button>
+
+                  <div id="form-status-msg" class="form-status-msg" role="status" aria-live="polite"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ====================================================================
+         FOOTER
+         ==================================================================== -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-main-grid">
+          <!-- Col 1: Brand Info -->
+          <div class="footer-brand-col">
+            <a href="#" class="footer-brand-title">PRANAV.</a>
+            <p class="footer-brand-desc">
+              UI/UX Designer crafting thoughtful digital experiences across healthcare, AI, fintech, CRM, and enterprise systems.
+            </p>
+            <span style="font-family: var(--font-mono); font-size: 0.8125rem; color: var(--text-muted);">
+              Based in Pune, India · Working Worldwide
+            </span>
+          </div>
+
+          <!-- Col 2: Navigate -->
+          <div class="footer-nav-col">
+            <span class="footer-nav-heading">Navigate</span>
+            <div class="footer-links-list">
+              <a href="#about" class="footer-link">About</a>
+              <a href="#work" class="footer-link">Works</a>
+              <a href="#process" class="footer-link">Process</a>
+              <a href="#services" class="footer-link">Services</a>
+            </div>
+          </div>
+
+          <!-- Col 3: Connect -->
+          <div class="footer-nav-col">
+            <span class="footer-nav-heading">Connect</span>
+            <div class="footer-links-list">
+              <a href="mailto:pranavchoudhari01@gmail.com" class="footer-link">Email Pranav ↗</a>
+              <a href="#contact" class="footer-link">Let's talk</a>
+              <a href="#work" class="footer-link">Selected Projects</a>
+            </div>
+          </div>
+
+          <!-- Col 4: Explore -->
+          <div class="footer-nav-col">
+            <span class="footer-nav-heading">Explore</span>
+            <div class="footer-links-list">
+              <a href="#tools" class="footer-link">Tools</a>
+              <a href="#about" class="footer-link">Journey</a>
+              <a href="#faq" class="footer-link">FAQ</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom-bar">
+          <span class="footer-copyright">
+            © 2026 Pranav Choudhari · UI/UX Designer · Pune, India
+          </span>
+
+          <a href="#hero" id="back-to-top" class="back-to-top-btn" aria-label="Back to top">
+            <span>Back to top</span>
+            <svg class="progress-ring" viewBox="0 0 32 32" aria-hidden="true">
+              <circle class="progress-ring-circle-bg" cx="16" cy="16" r="12" fill="none" stroke-width="2.5"></circle>
+              <circle class="progress-ring-circle" cx="16" cy="16" r="12" fill="none" stroke-width="2.5"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ====================================================================
+         ACCESSIBLE CASE STUDY MODAL
+         ==================================================================== -->
+    <div id="case-study-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+      <div class="modal-card">
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Close case study dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18"/>
+            <path d="m6 6 12 12"/>
+          </svg>
+        </button>
+
+        <div class="modal-header-hero">
+          <img id="modal-hero-img" src="" alt="Case study hero preview" class="modal-hero-img" />
+        </div>
+
+        <div class="modal-body">
+          <span id="modal-category" class="modal-category"></span>
+          <h2 id="modal-title" class="modal-title"></h2>
+
+          <div class="modal-specs-bar">
+            <div class="modal-spec-col">
+              <span class="modal-spec-title">Role</span>
+              <span id="modal-role-val" class="modal-spec-val"></span>
+            </div>
+            <div class="modal-spec-col">
+              <span class="modal-spec-title">Focus</span>
+              <span id="modal-focus-val" class="modal-spec-val"></span>
+            </div>
+            <div class="modal-spec-col">
+              <span class="modal-spec-title">Work</span>
+              <span id="modal-work-val" class="modal-spec-val"></span>
+            </div>
+            <div class="modal-spec-col">
+              <span class="modal-spec-title">Platform</span>
+              <span id="modal-platform-val" class="modal-spec-val"></span>
+            </div>
+          </div>
+
+          <div id="modal-overview" class="modal-overview"></div>
+
+          <h3 class="modal-section-title">Key Contributions & Deliverables</h3>
+          <ul id="modal-deliverables" class="modal-deliverables-list"></ul>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem;">
+            <a href="#contact" class="btn btn-primary" onclick="document.getElementById('modal-close-btn').click();">
+              <span>Discuss Similar Project</span>
+              <span class="icon-arrow-diagonal" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="/js/script.js"></script>
+  </body>
+</html>
