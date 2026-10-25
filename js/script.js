@@ -10,6 +10,7 @@
   /* ==========================================================================
      PROJECT CASE STUDY DATA (Complete Source of Truth)
      ========================================================================== */
+
   const PROJECTS_DATA = {
     curocare: {
       id: 'curocare',
@@ -735,7 +736,7 @@
     if (!ctx) return;
 
     const TOTAL_FRAMES = 241;
-    const FRAME_BASE_PATH = 'assets/pngs/ezgif-frame-';
+    const FRAME_BASE_PATH = '/assets/pngs/ezgif-frame-';
     const frameImages = new Array(TOTAL_FRAMES + 1);
 
     let loadedCount = 0;
